@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>mdmix</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+    <!-- Latest compiled and minified CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template go here -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syncopate|Cousine|Fugaz+One|Monofett|Abril+Fatface">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" id="index">
+    <!--navbar starts here-->
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="navbar">
+        <div class="container-fluid nav-fluid">
+          <div class="navbar-header" id="nav-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+              data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="mdmix navbar-brand">
+              <a href="#index">mdmix</a>
+            </div><!--end mdmix -->
+          </div><!-- navbar header -->
+          <div class="navbar-collapse collapse nav-box" id="nav-box">
+            <!-- <a href="#index">Home</a></li> -->
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="button">Work</span>
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#work" id="stuff">Coding</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#video" id="stuff">Video</a></li>
+                </ul>
+                </div>
+              </li>
+              <!-- <li><a href="#work">Work</a></li> -->
+              <li><a href="#about">About</a></li>
+              <li><a href="#faq">faq</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!-- end nav -->
+        </div><!-- end nav container -->
+      </nav><!-- end navbar-->
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <!-- <div class="jumbotron index">
+      <div class="container">
+        <h1>Max Diamond <br></br>Freelancer</h1>
+        <p><strong>Loving all kinds of stimulating projects.</strong>
+        Diving headfirst into multi-cultural, classical, and edgy projects.
+        Drawn especially to anything linked to Music, History, Video, and absurdist fun.</p>
+        <a href="about.html">About</a>
+        <span>/</span>
+        <a href="contact.html">Contact</a> -->
+
+      <!-- </div> -->
+      <!-- /container -->
+    <!-- </div> -->
+    <!-- /jumbotron -->
+
+    <!-- <div class="nav navbar">
+      <a href="index.html">Home</a>
+      <ul>
+
+      </ul>
+    </div> -->
+    <!-- end nav -->
+
+    <div class="container-fluid">
+      <div id="carousel-seeing" class="carousel slide" data-ride="carousel" data-interval="8500">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-seeing" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-seeing" data-slide-to="1"></li>
+          <li data-target="#carousel-seeing" data-slide-to="2"></li>
+          <li data-target="#carousel-seeing" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="img/BackwatersView-shaped.jpg" alt="Backwaters">
+            <div class="carousel-caption">
+              <div class="box">
+                <h3>Max Diamond<br>Freelancer</h3>
+                <p>video creation / website coding<br>classical to experimental</p>
+              </div><!-- end box -->
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/SigiriyaView-shaped.jpg" alt="Lush Green Hills">
+            <div class="carousel-caption">
+              <div class="box">
+                <h3>Let's go where<br>we want</h3>
+                <p>Loving all kinds of<br>stimulating projects:
+                vibrant,<br>impactful sites and videos</p>
+              </div><!-- end box -->
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/EllaView-shaped.jpg" alt="Sunset over Mountains">
+            <div class="carousel-caption">
+              <div class="box">
+                <h3>Unique mix of skills and roots</h3>
+                <p>Diving headfirst into multi-cultural, and local,<br>challenging projects</p>
+              </div><!-- end box -->
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/HeartyUpbeat-shaped.jpg" alt="Moutains and Valley">
+            <div class="carousel-caption">
+              <div class="box">
+                <h3>Based<br>in Berlin</h3>
+                <p>Easily mobile,<br>with ties to many places</p>
+              </div><!-- end box -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-seeing" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-seeing" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    </div><!-- end container -->
+    <br>
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Portfolio Concept</h2>
+          <p>I plan to make the most of this portfolio website by highlighting a mix of my new in-progress Wed Development skills, with my lucky international life-experience, and my wide-ranging video visuals – from the classical to the edgy.
+          <br>My humble-experiece-based hope is to mesh all of that into something that stands out online, shaped by my extensive oversight of projects, my instincts as to what matters, what's logical, rational, optimally interactive. I'd like to think that some intense, serious themes, as well as some absurd, fun ones will mix together well.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /col -->
+        <div class="col-md-4">
+          <h2>Project Goals</h2>
+          <p>All in all, my flexible gameplan is to quickly get into a good course-day-to-day-rhythm that feels properly immersive, in line with my level of motivation, while I also strike the right balance between this stimulating course, and everything else I have to focus on in my life. <br>In terms of the nitty-gritty, I'll aim to totalize 20-25 hours of studying per week, by gradually devoting my mornings to the course, more and more exclusively.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div><!-- /col -->
+        <div class="col-md-4">
+          <h2>Course Goals</h2>
+          <p>The core purpose I had in mind, when deciding to dive headfirst into this course, was to expand my skills into the extremely stimulating, rational-looking field of coding, beyond what I know about editing, and directing live events or shoots, and my hope thereby is to establish a strong, stable work-foundation that's positive on many levels. <br>The idea is that as a Web Developer I could either, more easily than with video, find part-time, or full-time work, or very regular freelance gigs, keep on intensely developing my developer skills, combine them with my video skills, and make the most of my free-time to initiate personal video projects – with the peace-of-mind that my WD work combines job-stability with challenges I really relish.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /col -->
+      </div><!-- /row -->
+
+      <hr>
+
+    </div> <!-- /container -->
+
+
+    <div class="container-fluid anchor" id="work">
+      <div class="row" id="snaps-header">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 snaps-box">
+          <h2>Coding Snaps</h2>
+        </div><!-- end snaps-box -->
+      </div><!-- end snaps-header -->
+    </div><!-- end container-fluid -->
+    <div class="container-fluid snapshots">
+      <div class="row" id="work-snaps">
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 snaps">
+          <img src="img/JumpingOnTrain.jpg" class="img-responsive" alt="Platform">
+        </div><!-- end snaps -->
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 snaps">
+          <img src="img/JumpingOnTrain.jpg" class="img-responsive" alt="Platform">
+        </div><!-- end snaps -->
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 snaps">
+          <img src="img/JumpingOnTrain.jpg" class="img-responsive" alt="Platform">
+        </div><!-- end snaps -->
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 snaps">
+          <img src="img/JumpingOnTrain.jpg" class="img-responsive" alt="Platform">
+        </div><!-- end snaps -->
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 snaps">
+          <img src="img/JumpingOnTrain.jpg" class="img-responsive" alt="Platform">
+        </div><!-- end snaps -->
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 snaps">
+          <img src="img/JumpingOnTrain.jpg" class="img-responsive" alt="Platform">
+        </div><!-- end snaps -->
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 snaps">
+          <img src="img/JumpingOnTrain.jpg" class="img-responsive" alt="Platform">
+        </div><!-- end snaps -->
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 snaps">
+          <img src="img/JumpingOnTrain.jpg" class="img-responsive" alt="Platform">
+        </div><!-- end snaps -->
+
+
+      </div><!-- end row -->
+    </div><!-- end container -->
+
+    <hr>
+
+    <div class="container-fluid anchor" id="video">
+      <div class="row" id="snaps-header">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 snaps-box">
+          <h2>Video Snaps</h2>
+        </div><!-- end snaps-box -->
+      </div><!-- end snaps-header -->
+    </div><!-- end container-fluid -->
+    <div class="container-fluid snapshots">
+      <div class="row" id="work-snaps">
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 snaps">
+          <img src="img/JumpingOnTrain.jpg" class="img-responsive" alt="Platform">
+        </div><!-- end snaps -->
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 snaps">
+          <img src="img/JumpingOnTrain.jpg" class="img-responsive" alt="Platform">
+        </div><!-- end snaps -->
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 snaps">
+          <img src="img/JumpingOnTrain.jpg" class="img-responsive" alt="Platform">
+        </div><!-- end snaps -->
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 snaps">
+          <img src="img/JumpingOnTrain.jpg" class="img-responsive" alt="Platform">
+        </div><!-- end snaps -->
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 snaps">
+          <img src="img/JumpingOnTrain.jpg" class="img-responsive" alt="Platform">
+        </div><!-- end snaps -->
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 snaps">
+          <img src="img/JumpingOnTrain.jpg" class="img-responsive" alt="Platform">
+        </div><!-- end snaps -->
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 snaps">
+          <img src="img/JumpingOnTrain.jpg" class="img-responsive" alt="Platform">
+        </div><!-- end snaps -->
+        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 snaps">
+          <img src="img/JumpingOnTrain.jpg" class="img-responsive" alt="Platform">
+        </div><!-- end snaps -->
+
+
+      </div><!-- end row -->
+    </div><!-- end container -->
+
+
+    <hr>
+
+  <div class="container-fluid anchor" id="about">
+    <div class="about-box">
+      <div class="header header-about">
+        <h1>About Me</h1>
+        <!-- <a href="index.html" target="_blank">Home</a>
+        <p>/</p>
+        <a href="contact.html" target="_blank">Contact</a> -->
+      </div><!-- end header -->
+      <div class="row" id="gist">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 pic">
+          <img src="img/JumpingOnTrain.jpg" class="img-responsive" alt="Platform">
+        </div><!-- end pic -->
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 basics">
+          <h2>Introduction</h2>
+          <p>I’m at my best when I have to take on many urgent responsibilities and tasks, especially when I have to take the initiative to reach energizing bold targets, to get the work done.
+          <br></br>
+          Having overseen a wide range of deadline-intensive activities, notably within video-creation, and the staging of Festival events, requiring ‘heat-of-the-action' quick-thinking, combined with the right mix of skills, and with many people depending on me, I feel that I can take on all kinds of challenges.
+          <br></br>
+          From my motivating, simultaneous responsibilities as a Manager in various technical fields, to especially running devotedly my own Video Prod Startup, immersed in Final Cut or Adobe universes, and a stimulating range of work-projects, as well as fun life-experiences, I’d like to think that that all adds up to me being a good mix of instincts, competence, and determination.
+          </p>
+        </div><!-- end basics -->
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 skills">
+          <h3>Experience /
+          <br>Skills</h3>
+          <ul id="skills-list">
+            <li>Managerial track-record</li>
+            <li>Directing / <br>&nbsp;&nbsp;producing track-record</li>
+            <li>Festival Technical Director /<br>Stage Manager</li>
+            <li>Editing dexterity from Apple<br>to Adobe tools</li>
+            <li>Live-to-staged-shoots</li>
+            <li>Live events</li>
+            <li>Many cameras / mics / lights</li>
+            <li>Budgets / revenue targets</li>
+            <li>Project development / <br>&nbsp;&nbsp;long-term strategy</li>
+          </ul>
+        </div><!-- end skills -->
+      </div><!-- end row -->
+      <div class="main-text">
+        <h3>Work + Life Overview</h3>
+        <p>
+        I feel naturally connected to many places all at once, as I have happily developed first-hand familiarity with quite a few major cities.
+        Through stimulating, startling bursts of experiences, I grew up, studied and worked, very frequently on-the-move, from one gripping place to another: notably Johannesburg, London, Paris, New York, London again, Berlin, with some vivid, amusing, or absurd pitstops on-the-way.
+        <br></br>
+        The major highlight of my career was my co-creation and then flying-solo management of my own London Video Prod Startup, to which I was whole-heartedly committed day-in-day-out, and which represented a sensational opportunity for me, with my great team, to reliably produce all kinds of impactful, professional, and purposeful Audio-Visual content.
+        <br></br>
+        As the Technical Director, and sometimes Stage Manager, of multiple Festivals, I took much pride in ensuring that all simultaneous events would have pristine customized setups, arranged by me and my on-hand ultra-dependable team.
+        </p>
+      </div><!-- end main-text -->
+      <div class="main-text">
+        <h3>Some Project Themes</h3>
+        <p>
+        Just a snapshot overview: from History ‘now’, political commentary, film conversations, to Jazz lives, all kinds of live-performances, and life-affirming stories,
+        from up-close interviews, aspirations, absurd stances, stand-out people, to upbeat montages on traditions + causes...
+        </p>
+      </div><!-- end main-text -->
+      <div class="base-image">
+        <img src="img/SunningUpHistory.jpg" alt="Historical Site">
+      </div><!-- end image -->
+    </div><!-- end about-box -->
+  </div><!-- end container-fluid about-page -->
+
+  <hr>
+
+  <div class="container-fluid anchor" id="faq">
+    <div class="qa">
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><span class="glyphicon glyphicon-play"></span>
+                Beyond your skillset, do you bring something unique to the table?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+              <j> Through luck, sound and adventurous choices, I have become a unique mix of personal and professional traits, a uniquely balanced medley of humility, open-mindedness, self-belief, full of motivation to take all kinds of initiatives with people from everywhere.
+              <br>Having bounced from city-to-city all over, having always been around people with mixed roots, like me, I naturally developed good instincts in interacting with many people, whatever their sensibilities, culture, humor, beyond my video, coding, entrepreneurial, managerial know-how.</j>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><span class="glyphicon glyphicon-play"></span>
+                How would you sum up your work-experience highlights and range?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+              I have had the good fortune of compiling a variety of stimulating, challenging, fulfilling work-experiences.
+              <br>From deadline-intensive responsibilities for ‘live’ professional activities, like film-shoots and Festival events, with many people depending on me, requiring ‘heat-of-the-action’ quick-thinking, to constant clear-and-forward-thinking, oversight and optimization of an institution’s IT network, to deep dives into gripping video editing, into impactful rhythmical and vivid ideas, the range of my track-record makes me feel quite well-rounded.
+              <br>All of that, the various forms of logic required, great attention to detail, matching what’s happening on the ground with my Festival and IT gameplans, and my visual creativity, all of that translates into a meaningful combination of skills needed to make my coding actually take shape, in tune with my ideas, and maybe yours.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span class="glyphicon glyphicon-play"></span>
+                In which kind of work-relationship do you perform best?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+              As much as I relish taking the initiative when I’m committed to my projects, or someone else’s, I also feel very fulfilled co-creating something with stimulating collaborators, as the buzz from that kind of work-relationship can be wonderfully engrossing and inspirational.
+              <br>In my mind, when everyone is more or less on the same wavelength, that type of team-blending can feel very rewarding, and like the optimal approach.
+              <br>So, in short, I’m open to taking on any kind of role at the helm by myself, or with you.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFour">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><span class="glyphicon glyphicon-play"></span>
+                What kind of projects appeal to you the most?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="panel-body">
+              I love all challenges, the newer and more multi-faceted they are the better.
+              <br>Each one, thematically known to me, or brand new, is above all else an opportunity for me to whole-heartedly commit to it.
+              <br>As my track-record highlights, the purpose of my projects has varied immensely, from the in-depth-classical kind, to the fun, experimental, edgy sort, from promos to documentaries, and musical montages, all full of insights that naturally add much potential to my coding skillset.
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFive">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><span class="glyphicon glyphicon-play"></span>
+                To what extent are you motivated and professional when taking on projects?
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+            <div class="panel-body">
+              From the more creative or strategic teamwork, to a vibrant, feel-good workflow, my core purpose is always to make the project-experience highly productive, smooth, and fresh.
+              <br>And to make clear 'big picture' plans within it, to commit wholeheartedly to the most urgent tasks, to be engaged lock, stock, and barrel with all projects to make the most of all of them - and to add to my own ‘in-the-thick-of-things’ enthusiasm.
+              <br>I love feeling, from the inside, the various forms of the collaborative team spirit in the heat of the deadline-meeting action.
+              And in collaborators, the spreading motivation and focus, with professional camaraderie, in an atmosphere which is heartily encouraging and rewarding for people who give it their all.
+              <br>Crucially, the springboard for all of this is my passionate urge to have a ‘hands-on’ attitude, to make others feel that I am utterly committed, and that a positive, down-to-earth respectful mindset is what I add to the mix.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- end container-fluid faq -->
+
+  <hr>
+
+  <div class="container-fluid anchor" id="contact">
+    <div class="screen">
+      <div class="jumbotron content easy" id="content">
+        <!-- <a href="index.html" target="_blank">Home</a>
+        <span>/</span>
+        <a href="about.html" target="_blank">About</a> -->
+        <h1>Easy To Reach</h1>
+        <p>Quick response-time to all messages about projects, collaborating, or anything else.
+        </p>
+      </div><!-- end jumbotron -->
+      <div class="jumbotron content details" id="content">
+        <h1>Main Contact Details</h1>
+        <ul>
+          <li><span class="glyphicon glyphicon-home"></span>
+          &nbsp;Based in Schöneberg, Berlin</li>
+          <li><span class="glyphicon glyphicon-envelope"></span>
+          &nbsp;email: maxdiamond@me.com</li>
+          <li><span class="glyphicon glyphicon-facetime-video"></span>
+          &nbsp;skype: maxdiamond75</li>
+          <li><span class="glyphicon glyphicon-phone"></span>
+          &nbsp;phone: <i>(provided after initial exchange)</i>
+        </ul>
+        <p>Also easily mobile, especially if it would be best for us to meet in France or the UK,<br>my 2 primary former home-bases – where I still have many contacts.</p>
+      </div><!-- end jumbotron -->
+      <div class="jumbotron content conversations" id="content">
+        <h1>Potential Conversations</h1>
+        <p>Having had a wide-ranging mix of work-and-life experiences, resulting from good fortune or choices I made, I'm open to anything novel, classical, edgy, that requires some or all of my skills.
+        Down-to-earth, challenging, straight-forward, local, international, or whatever else, I've dived headfirst into all of that.
+        So I feel comfortable taking on any project requiring a specific mix of skills, experience, and instincts.
+        </p>
+      </div><!-- end jumbotron -->
+
+
+    </div><!-- end screen -->
+
+
+    <!-- ============================= -->
+    <!-- All your JavaScript comes now -->
+    <!-- ============================= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap core JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Can place script tags with JavaScript files here -->
+    <script type="text/javascript">
+      var $root = $('html, body');
+      $('.navbar-nav a').click(function() {
+        var href = $.attr(this, 'href');
+        if (href != undefined && href != '#') {
+          $root.animate({
+            scrollTop: $(href).offset().top
+          }, 500, function () {
+            window.location.hash = href;
+          });
+        }
+        return false;
+      });
+    </script>
+
+  </body>
+</html>

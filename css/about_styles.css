@@ -1,0 +1,169 @@
+* { box-sizing: border-box; }
+
+
+.about {
+  /* background-color: #fffeea; */
+  background-color: #FFE5CC;
+  padding-top: 94px;
+}
+
+.header-about p {
+  position: relative;
+  bottom: 36px;
+  left: 20px;
+  color: white;
+  display: inline;
+}
+
+.container-about {
+  margin: 0 auto;
+  width: 80%;
+  background-color: black;
+  padding: 0px;
+}
+
+.header-about h1 {
+  text-align: center;
+  color: black;
+  background-color: #F77E14;
+  position: relative;
+  top: 11px;
+}
+
+.column {
+  display: inline-block;
+  float: left;
+  width: 33.33333333333333%;
+  padding: 8px 20px;
+  bottom: 7px;
+  position: relative;
+}
+
+.column h3 {
+  text-align: center;
+  position: relative;
+  transform: translateY(50%);
+}
+
+.skills h3 {
+  color: white;
+  position: relative;
+  transform: translateY(67%);
+}
+
+.column h2 {
+  color: white;
+  text-align: center;
+  position: relative;
+  transform: translateY(100%);
+}
+
+.column p, .column ul {
+  color: yellow;
+  text-align: center;
+  position: relative;
+  transform: translateY(10%);
+}
+
+.image img {
+  width: 100%;
+  position: relative;
+  right: 20px;
+}
+
+.skills {
+  background-color: #5AD4C2;
+  width: 30%;
+  padding-bottom: 247px;
+  position: relative;
+  left: 44px;
+  top: 1px;
+}
+
+.main-text h3 {
+  color: white;
+}
+
+.main-text {
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-bottom: 19px;
+  clear: both;
+  background-color: #F77E14;
+  position: relative;
+  bottom: 35px;
+  border-style: solid;
+  border-bottom-width: 36px;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-color: black;
+}
+
+.main-text p {
+  color: black;
+}
+
+.base-image img {
+  width: 100%;
+  position: relative;
+  bottom: 30px;
+}
+
+#skills-list {
+  -webkit-margin-before: 0;/* Safari */
+  padding-left: 49px;
+  text-align: left;
+  list-style-position: inside;
+}
+
+/* Typography */
+
+.nav>a {
+  font-size: 2.4em;
+  font-family: 'Syncopate', Arial Black, Futura, sans-serif;
+}
+
+.nav ul li a {
+  font-family: 'Monofett', Arial Black, Impact, sans-serif;
+  font-size: 2.25em;
+}
+
+.about h1 {
+  font-family: 'Syncopate', Arial Black, Futura, sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.about h2, .about h3 {
+  font-family: 'Syncopate', Arial Black, Futura, sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.about p {
+  font-family: 'Cousine', Arial Black, Impact, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#skills-list {
+  font-family: 'Cousine', Arial Black, Impact, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.intro p {
+  font-size: 1em;
+  font-weight: bold;
+  -webkit-margin-before: 0;/* Safari */
+}
+
+.skills h3 {
+  text-transform: uppercase;
+}
+
+.header-about a {
+  font-family: 'Fugaz One', Arial Black, Impact, sans-serif;
+  font-size: 1.1em;
+}

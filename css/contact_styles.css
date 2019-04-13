@@ -1,0 +1,203 @@
+* { box-sizing: border-box; }
+
+body {
+  background-image: url(../img/face-music-online.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 54px;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  background-color: #5AD4C2;
+}
+
+.nav>a {
+  color: yellow;
+  text-transform: uppercase;
+  letter-spacing: 0.35em;
+  position: relative;
+  top: 34px;
+  left: 143px;
+  transition: font-size 1.5s step-start;
+  -webkit-transition: font-size 1.5s step-start;/* Safari */
+  font-size: 2.4em;
+}
+
+.nav>a:link {
+  text-decoration-line: none;
+}
+
+.nav>a:hover {
+  font-size: 3.6em;
+}
+
+.nav>a:focus {
+  color: #FFE5CC;
+}
+
+.nav>ul li a:link {
+  color: #ff0;
+  text-decoration-line: none;
+}
+
+.nav>ul li a:visited {
+  color: #ff0;
+  text-decoration-line: none;
+}
+
+.nav>ul li a:hover {
+  text-decoration-line: overline;
+  color: #F77E14;
+}
+
+.nav>ul li a:focus {
+  text-decoration-line: overline;
+  color: #FFE5CC;
+}
+
+.nav ul {
+  float: right;
+  padding: 20px 10px 20px;
+  position: relative;
+  right: 136px;
+  bottom: 8px;
+  border: solid #F77E14 2px;
+  margin-bottom: -8px;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding-right: 10px;
+  -webkit-margin-before: 0;/* Safari */
+  padding-left: 28px;
+  text-align: left;
+  list-style-position: inside;
+}
+
+.nav ul li a {
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  transition: 1.5s;
+  -webkit-transition: 1.5s;/* Safari */
+  position: relative;
+  right: 4px;
+}
+
+/* span {
+  color: white;
+  position: relative;
+  top: 33px;
+} */
+
+.easy p {
+  position: relative;
+  color: white;
+  text-shadow: 0.9px 0.9px 1px #000;
+  text-shadow: -0.9px -0.9px 1px #000;
+}
+
+.screen {
+  margin: 0 auto;
+  width: 60%;
+  background-color: #09FFF880;
+}
+
+.jumbotron {
+  text-align: center;
+  padding: 30px;
+}
+
+.details {
+  background-color: #FFFfff80;
+  /* margin-top: 60px; */
+  position: relative;
+  padding-bottom: 64px;
+  color: black;
+}
+
+.conversations {
+  position: relative;
+  top: 2px;
+}
+
+.conversations p {
+  position: relative;
+  bottom: 98px;
+  color: white;
+  text-shadow: 0.9px 0.9px 1px #000;
+  text-shadow: -0.9px -0.9px 1px #000;
+}
+
+.jumbotron h1 {
+  color: #F77E14;
+  position: relative;
+  bottom: 13px;
+}
+
+.easy h1 {
+  position: relative;
+  top: 43px;
+}
+
+.details h1 {
+  position: relative;
+  bottom: 34px;
+}
+
+.conversations h1 {
+  position: relative;
+  bottom: 57px;
+}
+
+.details ul {
+    list-style-position: inside;
+    position: relative;
+    right: 29px;
+}
+
+p {
+  color: black;
+}
+
+
+/* Typography */
+
+.nav>a {
+  font-size: 2.4em;
+  font-family: 'Syncopate', Arial Black, Futura, sans-serif;
+}
+
+.nav ul li a {
+  font-family: 'Monofett', Arial Black, Impact, sans-serif;
+  font-size: 2.25em;
+}
+
+h1 {
+  font-family: 'Syncopate', Arial Black, Futura, sans-serif;
+  font-size: 3.1em;
+  font-weight: bold;
+  /* -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black; */
+}
+
+p {
+  font-family: 'Cousine', Arial Black, Impact, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.details ul {
+  font-family: 'Fugaz One', Arial Black, Impact, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.easy p {
+  font-size: 1.1em;
+}
