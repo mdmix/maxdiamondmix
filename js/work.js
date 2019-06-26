@@ -2,28 +2,28 @@ var work = [
   {
     type: "BIO SITE",
     title: "My Background",
-    pic: "img/turquoise-sand-face.jpg",
+    pic: "img/turquoise-sand-face-framed.jpg",
     url: "#index",
     caseStudy: "bio-case-study.html"
   },
   {
-    type: "BLOG SITE",
-    title: "(coming soon)",
-    pic: "img/turquoise-sand-face.jpg",
-    url: "#index",
+    type: "BLOG: NEWS MOMENTUM",
+    title: "(work in progress)",
+    pic: "img/blog-home-framed.jpg",
+    url: "http://mdmixblog.herokuapp.com/",
     caseStudy: "#index"
   },
   {
     type: "E-COMMERCE APP",
     title: "(coming soon)",
-    pic: "img/turquoise-sand-face.jpg",
+    pic: "img/plane-framed.jpg",
     url: "#index",
     caseStudy: "#index"
   },
   {
-    type: "'ORIGINAL' APP",
+    type: "UNUSUAL NEWS APP",
     title: "(coming soon)",
-    pic: "img/turquoise-sand-face.jpg",
+    pic: "img/plane-framed.jpg",
     url: "#index",
     caseStudy: "#index"
   }
@@ -58,7 +58,7 @@ var workV = [
     type: "EDIT-TO-MUSIC",
     title: "Showreel Mix",
     pic: "img/showreel.jpg",
-    url: "https://player.vimeo.com/video/113085144",
+    url: "https://player.vimeo.com/video/343226849",
     modal: "img/plane-crowd.png"
   },
   {
@@ -69,17 +69,17 @@ var workV = [
     modal: "img/raw-history.jpg"
   },
   {
-    type: "EXPERIMENTAL CLIP",
+    type: "EXPERIMENTAL SNAP",
     title: "(coming soon)",
     pic: "img/face-framed.jpg",
-    url: "https://player.vimeo.com/video/113085144",
+    url: "https://player.vimeo.com/video/343226849",
     modal: "img/turquoise-sand-face.jpg"
   },
   {
-    type: "HISTORY OR PROMO",
+    type: "PROMOS' SNAPSHOT",
     title: "(coming soon)",
     pic: "img/plane-framed.jpg",
-    url: "https://player.vimeo.com/video/113085144",
+    url: "https://player.vimeo.com/video/343226849",
     modal: "img/turquoise-sand-face.jpg"
   }
   // {

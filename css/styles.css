@@ -16,6 +16,7 @@ body {
   z-index: 999;
   width: 100%;
   background-color: #212F3D;
+  /* background-color: #000; */
   padding-left: 0px;
   padding-right: 0px;
   padding-bottom: 9px;
@@ -42,6 +43,17 @@ body {
 
 .mdmix>a:focus {
   color: #FFE5CC;
+}
+
+#summery-vibe {
+  background-color: #ff0;
+  color: #000;
+  transition: all 0.9s ease;
+  -webkit-transition: all 0.9s ease;/* Safari */
+}
+
+#summery-vibe:hover {
+  color: #5AD4C2;
 }
 
 #navbar li a:link, #nav-box .button:link, #navbar li a:visited {
@@ -128,7 +140,7 @@ body {
 .navbar .navbar-toggle {
   border-color: #F77E14;
   position: relative;
-  top: 1px;
+  top: 8px;
 }
 
 .navbar .navbar-toggle:hover,
@@ -239,11 +251,29 @@ body {
   color:#ffff00;
 }
 
-.snaps-header h2 {
+.snaps-header-narrow, .snaps-header-wide {
   text-align: center;
   color: #F77E14;
   padding-top: 0.1em;
   padding-bottom: 0.1em;
+}
+
+.snaps-header-wide {
+  display: none;
+}
+
+.roll-tip-narrow, .roll-tip-wide {
+  text-align: center;
+  font-style: italic;
+  color: #ff0;
+}
+
+.roll-tip-video {
+  margin-bottom: 0;
+}
+
+.roll-tip-wide {
+  display: none;
 }
 
 #video {
@@ -266,6 +296,10 @@ body {
   color: #F77E14;
   display: none;
   text-align: left !important;
+}
+
+.info-videos {
+  left: 9%;
 }
 
 .info>.proj-type {
@@ -344,28 +378,27 @@ body {
 .info>.proj-title {
   font-family: 'Fugaz One', Arial Black, Impact, sans-serif;
   font-size: 2em;
-  text-shadow: 1.3px 1.3px 1.4px #000;
-  text-shadow: -1.3px -1.3px 1.4px #000;
-  text-shadow: 1.3px -1.3px 1.4px #000;
-  text-shadow: -1.3px 1.3px 1.4px #000;
+  text-shadow: 1.3px 1.3px 1.4px #000, -1.3px -1.3px 1.4px #000, -1.3px 1.3px 1.4px #000, 1.3px -1.3px 1.4px #000;
   /* opacity: 0.95; */
 }
 
-.info>.proj-type {
+.info>.proj-type, .roll-tip, #summery-vibe {
   font-weight: 900;
   font-family: 'Fugaz One', Arial Black, Impact, sans-serif;
-  font-size: 1.3em;
-  text-shadow: 1.3px 1.3px 1.4px #000;
-  text-shadow: -1.3px -1.3px 1.4px #000;
-  text-shadow: 1.3px -1.3px 1.4px #000;
-  text-shadow: -1.3px 1.3px 1.4px #000;
+  font-size: 1.2em;
+  text-shadow: 1.3px 1.3px 1.4px #000, -1.3px -1.3px 1.4px #000, -1.3px 1.3px 1.4px #000, 1.3px -1.3px 1.4px #000;
   /* opacity: 0.95; */
 }
 
-.snaps-header h2 {
+.roll-tip, #summery-vibe {
+  text-shadow: none;
+}
+
+.snaps-header-narrow, .snaps-header-wide {
   font-size: 3.2em;
   font-weight: 900;
   letter-spacing: 0.6em;
+  text-shadow: 1px 1px 1px #ff0, -1px -1px 1px #ff0, -1px 1px 1px #ff0, 1px -1px 1px #ff0
 }
 
 
@@ -400,6 +433,7 @@ body {
   position: relative;
   left: 57px;
   transform: translateY(83%);
+  text-shadow: -1.9px 1.9px 2px #000, 1.9px -1.9px 2px #000, -1.9px -1.9px 2px #000, 1.9px 1.9px 2px #000;
 }
 
 #gist h2 {
@@ -408,6 +442,7 @@ body {
   position: relative;
   transform: translateY(180%);
   right: 37px;
+  text-shadow: -1.9px 1.9px 2px #000, 1.9px -1.9px 2px #000, -1.9px -1.9px 2px #000, 1.9px 1.9px 2px #000;
 }
 
 #gist p {
@@ -417,10 +452,7 @@ body {
   right: 28px;
   z-index: 1;
   transform: translateY(11%);
-  text-shadow: 1.3px 1.3px 1.4px #000;
-  text-shadow: -1.3px -1.3px 1.4px #000;
-  text-shadow: 1.3px -1.3px 1.4px #000;
-  text-shadow: -1.3px 1.3px 1.4px #000;
+  text-shadow: 1.3px 1.3px 1.4px #000, -1.3px -1.3px 1.4px #000, -1.3px 1.3px 1.4px #000, 1.3px -1.3px 1.4px #000;
   /* background-image: url(../img/black-shaped.jpg); */
 }
 
@@ -506,6 +538,7 @@ body {
   -webkit-margin-before: 0;/* Safari */
   text-align: left;
   list-style-position: inside;
+  text-shadow: -1.3px -1.3px 1.4px #000, 1.3px 1.3px 1.4px #000, -1.3px 1.3px 1.4px #000, 1.3px -1.3px 1.4px #000
 }
 
 .main-text h3 {
@@ -747,13 +780,13 @@ j {
 
 .snaps .btn {
   font-family: 'Syncopate', Arial Black, Futura, sans-serif;
-  font-size: 1.3em;
+  font-size: 0.9em;
   font-weight: 900;
 }
 
 .snaps .btn-primary, .modal-button .btn-primary {
   font-family: 'Syncopate', Arial Black, Futura, sans-serif;
-  font-size: 1.3em;
+  font-size: 0.9em;
   font-weight: 900;
   /* font-weight: 100; */
   letter-spacing: 0.3em;
@@ -762,7 +795,7 @@ j {
 
 .learn-more {
   font-family: 'Syncopate', Arial Black, Futura, sans-serif;
-  font-size: 3em !important;
+  font-size: 2.4em !important;
   font-weight: 900;
 }
 
@@ -841,7 +874,7 @@ j {
 }
 
 .tel-box>label {
-  margin-left: 2.1em;
+  margin-left: 2.6em;
 }
 
 #phone {
@@ -1031,15 +1064,15 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media (min-width: 320px) and (max-width: 320px) {
-  .info {
-    font-size: 1.46em;
-    letter-spacing: 0.3em;
-    line-height: 0.8;
+@media (min-width: 320px) and (max-width:320px){
+  .info>.proj-title, .info>.proj-type {
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    line-height: 0.9;
   }
-  .info>.proj-type {
+  /* .info>.proj-type {
     font-size: 1.36em;
-  }
+  } */
   #contact>.screen {
     padding-bottom: 139px;
   }
@@ -1053,17 +1086,26 @@ footer {
     margin: 0 auto;
     top: 11.5em;
   }
+  #gist h3 {
+    top: 1.1em;
+  }
+  /* #work h2, #video h2 {
+    font-size: 1.5em;
+  } */
 }
 
 @media (min-width: 321px) and (max-width: 767px) {
-  .info {
+  /* .info {
     font-size: 1.7em;
     letter-spacing: 0.3em;
     line-height: 0.8;
   }
   .info>.proj-type {
     font-size: 1.3em;
-  }
+  } */
+  /* #gist h3 {
+    top: 1.1em;
+  } */
 }
 
 @media (min-width: 375px) and (max-width: 385px) {
@@ -1092,7 +1134,18 @@ footer {
   }
 }
 
+@media (min-width: 320px) and (max-width: 425px) {
+  #gist h3 {
+    top: 1.4em;
+  }
+}
+
 @media (max-width: 767px) {
+  /* .info>.proj-title, .info>.proj-type {
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    line-height: 0.9;
+  } */
   .modal-button {
     float: none;
     clear: right;
@@ -1119,6 +1172,9 @@ footer {
     padding: 0;
     padding-top: 0.4em;
   }
+  /* #gist h3 {
+    font-size: 1.1em;
+  } */
 }
 
 /* MAYBE NEEDED */
@@ -1157,16 +1213,19 @@ footer {
     position: relative;
     right: 0em;
     left: 1.36em;
-    bottom: 1.4em;
+    bottom: 0.4em;
     text-align: initial;
     display: inline-block;
   }
   #work h2, #video h2 {
-    font-size: 1.9em;
+    font-size: 1.4em;
     padding-top: 0em;
     padding-bottom: 0em;
     margin-top: 8px;
     margin-bottom: 5px;
+  }
+  .info-videos {
+    left: 13%;
   }
   .about-panels {
     width: 100%;
@@ -1192,7 +1251,6 @@ footer {
     position: relative;
     left: 0.77em;
     font-size: 1.6em;
-    bottom: 1.28em;
   }
   #gist ul {
     position: relative;
@@ -1255,7 +1313,9 @@ footer {
     margin-left: 0.9em;
   }
   .tel-box>label {
-    margin-left: 1.3em;
+    margin-left: 2.1em;
+    /* position: relative;
+    right: 0.1em; */
   }
   form {
     padding-top: 2em;
@@ -1345,6 +1405,12 @@ footer {
     }
 }
 
+@media (min-width: 425px) and (max-width: 1023px) {
+  #gist h3 {
+    top: 0.1em;
+  }
+}
+
 /* code-combination to change 'bio-case-study' nabvar breakpoint */
 @media (max-width: 9999px) {
     #bio .navbar {
@@ -1419,14 +1485,14 @@ footer {
     font-size: 1.9em;
     display: inline-block;
   }
-  .info {
+  /* .info {
     font-size: 2.1em;
     letter-spacing: 0.5em;
     line-height: 1;
   }
   .info>.proj-type {
     font-size: 1.4em;
-  }
+  } */
   .skills {
     width: 50%;
     margin-left: 0;
@@ -1435,13 +1501,13 @@ footer {
   }
   #gist ul {
     top: -2em;
-    left: 4em;
+    /* left: 4em; */
     /* right: 0em; */
   }
   #gist h3 {
     font-size: 1.9em;
     bottom: 1em;
-    left: 2em;
+    /* left: 2em; */
     /* right: 5em; */
   }
   .screen p {
@@ -1474,13 +1540,11 @@ footer {
 @media (min-width: 1024px) and (max-width: 1199px) {
   #about h3 {
     /* bottom: 7em; */
-    top: -9em;
+    /* top: -9em; */
     left: 6.1em;
   }
-  #gist ul {
-    left: -7em;
-    top: 6em;
-    display: inline-block;
+  .intro {
+    right: 20px;
   }
 }
 
@@ -1520,6 +1584,7 @@ footer {
   #gist ul {
     /* left: -7em; */
     /* top: 6em; */
+    bottom: 1.9em;
     display: inline-block;
   }
   #gist p {
@@ -1583,6 +1648,24 @@ footer {
   }
 }
 
+@media (min-width: 1440px) {
+  .snaps-header-narrow {
+    display: none;
+  }
+  .snaps-header-wide {
+    display: block;
+    /* width: fit-content; */
+  }
+  .roll-tip-narrow {
+    display: none;
+  }
+  .roll-tip-wide {
+    display: block;
+    letter-spacing: 0.6em;
+    /* width: fit-content; */
+  }
+}
+
 @media (min-width: 1440px) and (max-width: 1445px){
   .info {
     font-size: 3.05em;
@@ -1597,6 +1680,9 @@ footer {
   }
   .skills {
     padding-bottom: 264px;
+  }
+  #gist ul {
+    bottom: 1.9em;
   }
   #conversations>h1 {
     position: relative;
@@ -1619,6 +1705,14 @@ footer {
     width: 76%;
     margin: 0 auto;
     top: 1.6em;
+  }
+}
+
+@media (max-width: 1665px) {
+  .info>.proj-title, .info>.proj-type {
+    font-size: calc(0.6em + 0.9vw);
+    letter-spacing: 0.1em;
+    line-height: 0.9;
   }
 }
 

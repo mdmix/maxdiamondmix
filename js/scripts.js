@@ -226,7 +226,7 @@ $(document).ready(function(){
       <div>\
         <a href="' + workV[i].url + '" class="vimeo-snaps">\
           <img class="img-responsive" src="' + workV[i].pic + '">\
-            <span class="info"><p class="proj-type">'+ workV[i].type +'</p><p class="proj-title">'+ workV[i].title +'</p></span>\
+            <span class="info info-videos"><p class="proj-type">'+ workV[i].type +'</p><p class="proj-title">'+ workV[i].title +'</p></span>\
         </a>\
       </div>\
       <br>\
@@ -235,9 +235,9 @@ $(document).ready(function(){
     ');
     $(".vimeo-snaps").mouseenter( function() {
       console.log(this);
-      $(".info", this).show();
+      $(".info-videos", this).show();
     }).mouseleave(function(){
-      $(".info", this).hide();
+      $(".info-videos", this).hide();
     });
     var imagesV = $("#video-snaps img");
     // console.log(imagesV [1]);
@@ -272,3 +272,22 @@ $(document).ready(function(){
         $(".modal-header h4").text($(this).attr("title"));
     })
 });
+
+// $(document).ready(function(){
+//   $("#summery-vibe").click(function () {
+//     $("body, div, span, ul, label, nav, j").each(function () {
+//         var color = $(this).css("background-color");
+//         if (color == "rgb(0, 0, 0)") {
+//             $(this).css("background-color", "#F2D7D5");
+//         }
+//       });
+//     });
+//     $("#summery-vibe").click(function () {
+//       $("body, div, span, ul, label, nav, j, p, li").each(function () {
+//           var color = $(this).css("color");
+//           if (color == "rgb(255, 255, 0)") {
+//               $(this).css("color", "white");
+//           }
+//         });
+//       });
+// });
