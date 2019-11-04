@@ -8,7 +8,14 @@
   overflow-x: hidden;
 } */
 
+html {
+  height: 100%;
+  margin: 0;
+}
+
 body {
+  height: 100%;
+  margin: 0;
   background-color: #000;
 }
 
@@ -56,6 +63,20 @@ body {
   color: #5AD4C2;
 }
 
+#dark-vibe {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+  transition: all 0.9s ease;
+  -webkit-transition: all 0.9s ease;/* Safari */
+}
+
+#dark-vibe:hover {
+  color: #ff0;
+  background-color: #000;
+  border-color: #000;
+}
+
 #navbar li a:link, #nav-box .button:link, #navbar li a:visited {
   color: #ff0;
   text-decoration-line: none;
@@ -64,6 +85,7 @@ body {
 #navbar li a:hover, #nav-box .button:hover, #nav-box .button:active {
   text-decoration-line: overline;
   color: #F77E14;
+  background-color: #000;
 }
 
 #navbar li a:focus, #nav-box .button:focus {
@@ -75,13 +97,18 @@ body {
   transform: translateY(13%);
 }
 
-.navbar-inverse .navbar-nav>.active>a:visited, .navbar-inverse .dropdown-menu>.active>a:visited, .navbar-inverse .navbar-nav>.active>#dropdown:visited {
-    background-color: #5AD4C2;
+.navbar-inverse .navbar-nav>.active>a {
+    background-color: rgb(90, 212, 194);
 }
 
-#dropdownMenu1, .dropdown-menu {
+#dropdownMenu1, .dropdown-menu, .stuff {
   color: #ff0;
   background-color: #212F3D;
+}
+
+.work-button {
+  color: #ff0;
+  top: -0.3em;
 }
 
 #dropdownMenu1 {
@@ -98,7 +125,7 @@ body {
   padding: 0px;
 }
 
-.dropdown-menu>li>#stuff {
+.dropdown-menu>li>.stuff {
   padding-right: 37px;
   padding-left: 49px;
 }
@@ -122,7 +149,7 @@ body {
 }
 
 #nav-box a {
-  padding-bottom: 28px;
+  padding-bottom: 27px;
 }
 
 #navbar ul li a, #dropdownMenu1 {
@@ -182,9 +209,14 @@ body {
   text-shadow: -1.3px 1.3px 1.4px #000;
 }
 
+.caption-box h3 {
+  color: #ff0;
+}
+
 .caption-box p {
   padding-left: 10px;
   padding-right: 10px;
+  color: #ff0;
 }
 
 .overview h2 {
@@ -382,7 +414,7 @@ body {
   /* opacity: 0.95; */
 }
 
-.info>.proj-type, .roll-tip, #summery-vibe {
+.info>.proj-type, .roll-tip, #summery-vibe, #dark-vibe {
   font-weight: 900;
   font-family: 'Fugaz One', Arial Black, Impact, sans-serif;
   font-size: 1.2em;
@@ -390,7 +422,7 @@ body {
   /* opacity: 0.95; */
 }
 
-.roll-tip, #summery-vibe {
+.roll-tip, #summery-vibe, #dark-vibe {
   text-shadow: none;
 }
 
@@ -482,10 +514,7 @@ body {
   transform: translateY(27%);
   background-color: #212F3D68;
   margin-right: 2.3em;
-  text-shadow: 1.3px 1.3px 1.4px #000;
-  text-shadow: -1.3px -1.3px 1.4px #000;
-  text-shadow: 1.3px -1.3px 1.4px #000;
-  text-shadow: -1.3px 1.3px 1.4px #000;
+  text-shadow: 1.3px 1.3px 1.4px #000, -1.3px -1.3px 1.4px #000, 1.3px -1.3px 1.4px #000, -1.3px 1.3px 1.4px #000;
 }
 
 .about-pic {
@@ -689,7 +718,7 @@ body {
 
 .modal-title {
   position: relative;
-  left: 1.1em;
+  left: 1.7em;
   color: #F77E14;
   display: inline-block;
   /* padding: 0.4em; */
@@ -739,7 +768,7 @@ j {
   color: #fff;
 }
 
-.panel-default>.panel-heading+.panel-collapse>.panel-body {
+.panel-default>.panel-heading+.panel-collapse>.panel-body, #faq .panel-body {
   background-color: #000;
   color: #fff;
   border-top-color: #ff0;
@@ -837,7 +866,7 @@ j {
 .easy-reach p {
   position: relative;
   top: -1.9em;
-  color: white;
+  color: whitesmoke;
   text-shadow: 0.9px 0.9px 1px #000;
   text-shadow: -0.9px -0.9px 1px #000;
 }
@@ -845,7 +874,9 @@ j {
 .screen {
   margin: 0 auto;
   width: 70%;
-  background-color: #09FFF880;
+  background-color: rgba(10, 255, 247, 0.6);
+  /* background-color: #09FFF880; */
+  /* filter: opacity(80%); */
   float: none;
   height: inherit;
   overflow-x: hidden;
@@ -952,7 +983,7 @@ label {
 .p-conversations p {
   position: relative;
   bottom: 89px;
-  color: white;
+  color: whitesmoke;
   text-shadow: 0.9px 0.9px 1px #000;
   text-shadow: -0.9px -0.9px 1px #000;
 }
@@ -967,6 +998,10 @@ label {
   position: relative;
   top: -0.4em;
 }
+
+/* #contact .summery-p, #conversations>.summery-p {
+  color: #ff0;
+} */
 
 .contact-details h1 {
   position: relative;
@@ -985,6 +1020,10 @@ label {
   right: 29px;
 }
 
+#hub-berlin {
+  color: #F77E14;
+}
+
 #main-hub {
   height: 33.125em;
   width: 70%;
@@ -1000,15 +1039,20 @@ label {
 } */
 
 footer {
-  background-color: #ff0;
+  /* background-color: #ff0; */
   padding-top: 1em;
   padding-bottom: 1em;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   width: 100%;
   text-align: center;
   background-color: #FFFF0089;
   color: #000;
   clear: both;
+  /* position: absolute; */
+}
+
+#bio-footer, .page-wrap:after {
+  height: 2.5em;
 }
 
 
@@ -1050,15 +1094,33 @@ footer {
 }
 
 
-/* BIO CASE STUDIES */
+/* CASE STUDIES */
 
-#bio-carousel {
-  width: 89%;
+#soon-carousel, #bio-carousel {
+  width: 79%;
   margin: 0 auto;
 }
 
-#bio-footer {
+#soon-carousel .carousel-indicators, #bio-carousel .carousel-indicators {
+  bottom: -44px;
+}
+
+#soon-footer, #bio-footer {
   background-color: #ff0;
+  position: absolute;
+}
+
+.page-wrap {
+  position: relative;
+  min-height: 100%;
+  height: auto;
+  margin-bottom: -2.5em;
+  padding-bottom: 2.5em;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
 }
 
 
@@ -1166,7 +1228,7 @@ footer {
   .modal-title {
     font-size: 1.6em;
     padding-left: 0em;
-    left: 0.26em;
+    left: 0.6em;
   }
   #modalembed {
     padding: 0;
@@ -1186,7 +1248,7 @@ footer {
 @media (max-width: 1023px) {
   .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {
     padding-top: 20px;
-    background-color: #5AD4C2;
+    background-color: #212F3D;
     text-align: left;
     position: relative;
     left: 8px;
@@ -1389,7 +1451,7 @@ footer {
         float: none;
     }
     .navbar-nav>li>a {
-        padding-top: 10px;
+        padding-top: 17px;
         padding-bottom: 10px;
     }
     .navbar-text {
@@ -1406,52 +1468,102 @@ footer {
 }
 
 @media (min-width: 425px) and (max-width: 1023px) {
-  #gist h3 {
-    top: 0.1em;
-  }
+    #gist h3 {
+      top: 0.1em;
+    }
 }
 
-/* code-combination to change 'bio-case-study' nabvar breakpoint */
-@media (max-width: 9999px) {
-    #bio .navbar {
-      background-color: #212F3D49;
+/* code-combination to change 'case-study' nabvar breakpoint */
+@media (max-width: 765px) {
+    #soon .navbar-collapse.collapse.in, #bio .navbar-collapse.collapse.in {
+      display: block!important;
+      width: 100%;
     }
-    #bio .navbar-header {
-        float: none;
+    #soon .navbar-nav>li, #bio .navbar-nav>li {
+      float: none;
+      left: 1.4em;
     }
-    #bio .navbar-toggle {
-        display: block;
-    }
-    #bio .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    #bio .navbar-collapse.collapse {
-        display: none!important;
-    }
-    #bio .navbar-nav {
-        float: none!important;
-        margin: 7.5px -15px;
-    }
-    #bio .navbar-nav>li {
-        float: none;
-    }
-    #bio .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    #bio .navbar-text {
-        float: none;
-        margin: 15px 0;
-    }
-    /* since 3.1.0 */
-    #bio .navbar-collapse.collapse.in {
-        display: block!important;
-    }
-    #bio .collapsing {
-        overflow: hidden!important;
+    #soon .dropdown {
+      left: 0.7em;
     }
 }
+
+@media (min-width: 768px) {
+    #soon .navbar-collapse.collapse.in, #bio .navbar-collapse.collapse.in {
+      display: block!important;
+      width: 50%;
+    }
+    #soon .navbar-nav>li, #bio .navbar-nav>li {
+      float: left;
+      left: 6em;
+      width: fit-content;
+      margin: 0 auto;
+      clear: both;
+    }
+    #soon .dropdown {
+      left: 0.6em;
+    }
+}
+
+@media (max-width: 9999px) {
+    #soon #navbar li a:link, #soon #nav-box .button:link, #soon #navbar li a:visited {
+      text-align: left;
+    }
+    #soon .navbar-right .dropdown-menu {
+    /* right: 0; */
+      left: 0;
+      width: fit-content;
+    }
+    #soon .navbar, #bio .navbar {
+      background-color: #212F3D49;
+    }
+    #soon .navbar-header, #bio .navbar-header {
+      float: none;
+      min-height: 69px;
+    }
+    #soon .navbar-toggle, #bio .navbar-toggle {
+      display: block;
+    }
+    #soon .navbar-collapse, #bio .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+      background-color: #212F3D49;
+    }
+    #soon .navbar-collapse.collapse, #bio .navbar-collapse.collapse {
+      display: none!important;
+    }
+    #soon .navbar-nav, #bio .navbar-nav {
+      float: none!important;
+      margin: 7.5px -15px;
+      bottom: 1.9em;
+    }
+    /* #soon .navbar-nav>li, #bio .navbar-nav>li {
+      float: none;
+      left: 6em;
+    } */
+    #soon .navbar-nav>li>a, #bio .navbar-nav>li>a {
+      padding-top: 26px;
+      padding-bottom: 34px;
+    }
+    #soon .navbar-text, #bio .navbar-text {
+      float: none;
+      margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    /* #soon .navbar-collapse.collapse.in, #bio .navbar-collapse.collapse.in {
+      display: block!important;
+      width: 50%;
+    } */
+    #soon .collapsing, #bio .collapsing {
+      overflow: hidden!important;
+    }
+    /* #soon .navbar-nav .open .dropdown-menu>li>a {
+      padding-top: 20px;
+      background-color: #000;
+      text-align: left;
+      position: relative;
+      left: 8px;
+    } */
 
 @media (min-width:768px) and (max-width:1023px) {
   .navbar-right .dropdown-menu {

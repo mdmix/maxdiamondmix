@@ -273,21 +273,249 @@ $(document).ready(function(){
     })
 });
 
-// $(document).ready(function(){
-//   $("#summery-vibe").click(function () {
-//     $("body, div, span, ul, label, nav, j").each(function () {
-//         var color = $(this).css("background-color");
-//         if (color == "rgb(0, 0, 0)") {
-//             $(this).css("background-color", "#F2D7D5");
-//         }
-//       });
-//     });
-//     $("#summery-vibe").click(function () {
-//       $("body, div, span, ul, label, nav, j, p, li").each(function () {
-//           var color = $(this).css("color");
-//           if (color == "rgb(255, 255, 0)") {
-//               $(this).css("color", "white");
-//           }
-//         });
-//       });
-// });
+
+$(document).ready(function(){
+  // $("#summery-vibe").click(function () {
+  //   $(".navbar-inverse .navbar-nav>.active>a").each(function () {
+  //       var color = $(this).css("background-color");
+  //       if (color == "rgb(90, 212, 194)") {
+  //           $(this).css("background-color", "#fff");
+  //       }
+  //     });
+  //   });
+  $("#summery-vibe").click(function () {
+    $("body, div, span, ul, label, nav, j").each(function () {
+        var color = $(this).css("background-color");
+        if (color == "rgb(0, 0, 0)") {
+            $(this).css("background-color", "#F9E79F");
+        }
+      });
+    });
+  $("#summery-vibe").click(function () {
+    $("body, button, div, span, ul, #stuff, li, label, nav, j, .btn").each(function () {
+        var color = $(this).css("background-color");
+        if (color == "rgb(33, 47, 61)") {
+            $(this).css("background-color", "#5AD4C2");
+        }
+      });
+    });
+  $("#summery-vibe").click(function () {
+    $("body, div, ul, label, nav, j, li, h1, h2").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(255, 255, 0)") {
+            $(this).css("color", "#000");
+        }
+      });
+    });
+  $("#summery-vibe").click(function () {
+    $(".section>p, .section>ul").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(0, 0, 0)") {
+            $(this).css("color", "yellow");
+        }
+      });
+    });
+  $("#summery-vibe").click(function () {
+    $("body, div, span, ul, label, nav, j, p, li, .main-text>h3").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(255, 255, 255)") {
+            $(this).css("color", "#000");
+        }
+      });
+    });
+  $("#summery-vibe").click(function () {
+    $(".caption-box>p").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(255, 255, 0)") {
+            $(this).css("color", "#5AD4C2");
+        }
+      });
+    });
+  $("#summery-vibe").click(function () {
+    $(".caption-box>h3").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(255, 255, 0)") {
+            $(this).css("color", "#ff0");
+        }
+      });
+    });
+  $("#summery-vibe").click(function () {
+    $(".main-text>p, .roll-tip-wide, .roll-tip-narrow").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(255, 255, 0)") {
+            $(this).css("color", "#000");
+        }
+      });
+    });
+  $("#summery-vibe").click(function () {
+    $(".screen").each(function () {
+        var color = $(this).css("background-color");
+        if (color == "rgba(10, 255, 247, 0.6)") {
+            $(this).css("background-color", "#ffff0080");
+        }
+      });
+    });
+  $("#summery-vibe").click(function () {
+    $(".contact-content h1").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(0, 0, 0)") {
+            $(this).css("color", "#F77E14");
+        }
+      });
+    });
+  $("#summery-vibe").click(function () {
+    $(".easy-reach>p, .p-conversations>p").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(255, 255, 255)") {
+            $(this).css("color", "#F5F5F5");
+        }
+      });
+    });
+  $("#summery-vibe").click(function () {
+    $(".contact-details").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(0, 0, 0)") {
+            $(this).css("color", "#212F3D");
+        }
+      });
+    });
+  $("#summery-vibe").click(function () {
+    $("#hub-berlin").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(247, 126, 20)") {
+            $(this).css("color", "#fff");
+        }
+      });
+    });
+});
+
+$(document).ready(function(){
+  $("#dark-vibe").click(function () {
+    $("body, div, span, ul, label, nav, j").each(function () {
+        var color = $(this).css("background-color");
+        if (color == "rgb(249, 231, 159)") {
+            $(this).css("background-color", "#000");
+        }
+      });
+    });
+  $("#dark-vibe").click(function () {
+    $("body, button, div, span, ul, #stuff, li, label, nav, j, .btn").each(function () {
+        var color = $(this).css("background-color");
+        if (color == "rgb(90, 212, 194)") {
+            $(this).css("background-color", "#212F3D");
+        }
+      });
+    });
+  $("#dark-vibe").click(function () {
+    $("body, div, j, ul, label, nav, li, h1, h2,.main-text>p").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(0, 0, 0)") {
+            $(this).css("color", "#ff0");
+        }
+      });
+    });
+  $("#dark-vibe").click(function () {
+    $(".overview p, #about h3").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(0, 0, 0)") {
+            $(this).css("color", "#fff");
+        }
+      });
+    });
+  $("#dark-vibe").click(function () {
+    $("body, div, span, ul, label, nav, j, p, li, .main-text>h3, #faq .panel-body").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(255, 255, 0)") {
+            $(this).css("color", "#fff");
+        }
+      });
+    });
+  // $("#dark-vibe").click(function () {
+  //   $(".intro p").each(function () {
+  //       var color = $(this).css("color");
+  //       if (color == "rgb(255, 255, 255)") {
+  //           $(this).css("color", "#ff0");
+  //       }
+  //     });
+  //   });
+  $("#dark-vibe").click(function () {
+    $(".section>p, .section>ul, .proj-type, #about p, .form-group label").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(255, 255, 255)") {
+            $(this).css("color", "yellow");
+        }
+      });
+    });
+  $("#dark-vibe").click(function () {
+    $(".work-button").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(255, 255, 255)") {
+            $(this).css("color", "#ff0");
+        }
+      });
+    });
+  $("#dark-vibe").click(function () {
+    $(".caption-box>p").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(90, 212, 194)") {
+            $(this).css("color", "#ff0");
+        }
+      });
+    });
+  $("#dark-vibe").click(function () {
+    $(".caption-box>h3").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(255, 255, 0)") {
+            $(this).css("color", "#ff0");
+        }
+      });
+    });
+  $("#dark-vibe").click(function () {
+    $(".roll-tip-wide, .roll-tip-narrow").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(0, 0, 0)") {
+            $(this).css("color", "#ff0");
+        }
+      });
+    });
+  $("#dark-vibe").click(function () {
+    $(".screen").each(function () {
+        var color = $(this).css("background-color");
+        if (color == "rgba(255, 255, 0, 0.5)") {
+            $(this).css("background-color", "rgba(10, 255, 247, 0.6)");
+        }
+      });
+    });
+  $("#dark-vibe").click(function () {
+    $(".contact-content h1").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(0, 0, 0)") {
+            $(this).css("color", "rgb(247, 126, 20)");
+        }
+      });
+    });
+  $("#dark-vibe").click(function () {
+    $(".easy-reach>p, .p-conversations>p").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(245, 245, 245)") {
+            $(this).css("color", "#fff");
+        }
+      });
+    });
+  $("#dark-vibe").click(function () {
+    $(".contact-details").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(33, 47, 61)") {
+            $(this).css("color", "#000");
+        }
+      });
+    });
+  $("#dark-vibe").click(function () {
+    $("#hub-berlin").each(function () {
+        var color = $(this).css("color");
+        if (color == "rgb(255, 255, 255)") {
+            $(this).css("color", "rgb(247, 126, 20)");
+        }
+      });
+    });
+});

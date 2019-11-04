@@ -4,28 +4,29 @@ var work = [
     title: "My Background",
     pic: "img/turquoise-sand-face-framed.jpg",
     url: "#index",
-    caseStudy: "bio-case-study.html"
+    // caseStudy: "img/updates-soon-framed.jpg"
+    caseStudy: "coming-soon.html"
   },
   {
     type: "BLOG: NEWS MOMENTUM",
-    title: "(work in progress)",
-    pic: "img/blog-home-framed.jpg",
+    title: "Readers' Trail",
+    pic: "img/blog-home-shaped.jpg",
     url: "http://mdmixblog.herokuapp.com/",
-    caseStudy: "#index"
+    caseStudy: "coming-soon.html"
   },
   {
     type: "E-COMMERCE APP",
-    title: "(coming soon)",
-    pic: "img/plane-framed.jpg",
-    url: "#index",
-    caseStudy: "#index"
+    title: "Film Noir Movie Images",
+    pic: "img/images-home-shaped.jpg",
+    url: "https://standoutfilmnoirimages.herokuapp.com/",
+    caseStudy: "coming-soon.html"
   },
   {
-    type: "UNUSUAL NEWS APP",
+    type: "VIBRANT CHAT APP",
     title: "(coming soon)",
     pic: "img/plane-framed.jpg",
     url: "#index",
-    caseStudy: "#index"
+    caseStudy: "coming-soon.html"
   }
   // {
   //   type: "Clip",

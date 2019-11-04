@@ -37,7 +37,7 @@
 
     <div id="fb-root"></div>
 
-    <script src="//platform-api.sharethis.com/js/sharethis.js#property=5cb0a659240a80001258747e&product=inline-share-buttons"></script>
+    <script src="http://platform-api.sharethis.com/js/sharethis.js#property=5cb0a659240a80001258747e&product=inline-share-buttons"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -47,6 +47,8 @@
   </head>
 
   <body data-spy="scroll" data-target=".navbar" id="index">
+
+  <!-- <main class="page-wrap"> -->
 
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
@@ -92,13 +94,13 @@
               <li>
                 <div class="dropdown">
                 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                  <span class="button">Work</span>
+                  <span class="button work-button">Work</span>
                   <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                  <li><a href="#work" id="stuff">Coding</a></li>
+                  <li><a href="#work" class="stuff">Coding</a></li>
                   <li role="separator" class="divider"></li>
-                  <li><a href="#video" id="stuff">Video</a></li>
+                  <li><a href="#video" class="stuff">Video</a></li>
                 </ul>
                 </div>
               </li>
@@ -128,7 +130,7 @@
             <div class="carousel-caption">
               <div class="caption-box">
                 <h3>Max Diamond</h3>
-                <p>Web developer. Experienced videographer. Startup creator. <br>Upbeat life mix. Very open-minded.</p>
+                <p id="test">Web developer. Experienced videographer. Startup creator. <br>Upbeat life mix. Very open-minded.</p>
               </div><!-- end caption-box -->
             </div>
           </div>
@@ -176,10 +178,13 @@
     <br>
     <div class="container">
       <!-- Example row of columns -->
-      <!-- <span id="lighten">
+      <span id="lighten">
         <input id="summery-vibe" type="button" value="summery vibe">
       </span>
-      <br></br> -->
+      <span id="lighten">
+        <input id="dark-vibe" type="button" value="dark vibe reset">
+      </span>
+      <br></br>
       <div class="row">
         <div class="col-md-4">
         </div><!-- col -->
@@ -336,7 +341,7 @@
                   <h4 class="modal-title" id="myModalLabel">Background</h4>
               </div>
               <div class="modal-body">
-                <embed id="modalembed" src="img/MaxDiamond-resume.jpg" class="img-responsive">
+                <embed id="modalembed" src="img/MaxDiamond-partyresume.jpg" class="img-responsive">
               </div>
             </div>
           </div>
@@ -433,7 +438,7 @@
     <div class="screen col-lg-12 col-md-12">
       <div class="jumbotron contact-content easy-reach col-lg-6 col-md-6" id="reach">
         <h1>Easy To Reach</h1>
-        <p>Quick response-time to all messages about projects, off-the-cuff brainstorming,<br>or anything else.
+        <p class="summery-p">Quick response-time to all messages about projects, off-the-cuff brainstorming,<br>or anything else.
         </p>
         <br>
         <br>
@@ -504,12 +509,12 @@
       </div><!-- end jumbotron -->
       <div class="jumbotron contact-content p-conversations col-lg-12 col-md-12" id="conversations">
         <h1>Potential Conversations</h1>
-        <p>Having had a wide-ranging mix of work-and-life experiences, resulting from good fortune or choices I made, I'm open to anything novel, classical, edgy, that requires some or all of my skills.
+        <p class="summery-p">Having had a wide-ranging mix of work-and-life experiences, resulting from good fortune or choices I made, I'm open to anything novel, classical, edgy, that requires some or all of my skills.
         Down-to-earth, challenging, straight-forward, local, international, or whatever else, I'd love to dive headfirst into more of that.
         So I relish taking on any project requiring<br>a unique, live, decision-making, finetuning mix of skills, experience, and instincts.
         </p>
         <div id="hub-title">
-          <h1><u>Main-Hub</u><br><i>'Schöneberg, Berlin'</i></h1>
+          <h1><u>Main-Hub</u><br><i><span id="hub-berlin">'Schöneberg, Berlin'<span></i></h1>
         </div>
       </div><!-- end jumbotron -->
 
@@ -522,9 +527,13 @@
 
     </div><!-- end screen -->
 
+  <!-- </main> -->
+
     <footer>
       &copy; Max Diamond 2019
     </footer>
+
+  </div>
 
     <!-- ============================= -->
     <!-- All your JavaScript comes now -->
