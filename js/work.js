@@ -60,28 +60,28 @@ var workV = [
     title: "Showreel Mix",
     pic: "img/showreel.jpg",
     url: "https://player.vimeo.com/video/343226849",
-    modal: "img/plane-crowd.png"
+    modal: "img/updates-soon-framed.jpg"
   },
   {
     type: "HISTORY MONTAGE",
     title: "Neighbors' Dignity",
     pic: "img/neighbors.jpg",
     url: "https://player.vimeo.com/video/148670221",
-    modal: "img/raw-history.jpg"
+    modal: "img/updates-soon-framed.jpg"
   },
   {
     type: "EXPERIMENTAL SNAP",
     title: "(coming soon)",
     pic: "img/face-framed.jpg",
-    url: "https://player.vimeo.com/video/343226849",
-    modal: "img/turquoise-sand-face.jpg"
+    url: "",
+    modal: "img/updates-soon-framed.jpg"
   },
   {
     type: "PROMOS' SNAPSHOT",
     title: "(coming soon)",
     pic: "img/plane-framed.jpg",
-    url: "https://player.vimeo.com/video/343226849",
-    modal: "img/turquoise-sand-face.jpg"
+    url: "",
+    modal: "img/updates-soon-framed.jpg"
   }
   // {
   //   type: "Clip",
