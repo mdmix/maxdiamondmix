@@ -203,7 +203,7 @@ $(document).ready(function(){
         </a>\
       </div>\
       <br>\
-      <p><a class="btn btn-default" href="' + work[i].caseStudy +'" role="button">CASE STUDY &raquo;</a></p>\
+      <p><a class="btn btn-default" href="' + work[i].caseStudy +'" role="button">HIGHLIGHTS &raquo;</a></p>\
     </div>\
     ');
     $(".work-img").mouseenter( function() {
@@ -230,7 +230,7 @@ $(document).ready(function(){
         </a>\
       </div>\
       <br>\
-        <p><button src="' + workV[i].modal + '" title="'+ workV[i].title +'" type="button" class="btn btn-primary video-details" data-toggle="modal" data-target=".bs-example-modal-lg" data-keyboard="false">DETAILS &raquo;</button></p>\
+        <p><button src="' + workV[i].modal + '" title="'+ workV[i].title +'" type="button" class="btn btn-primary video-details" data-toggle="modal" data-target=".bs-example-modal-lg" data-keyboard="false">OVERVIEW &raquo;</button></p>\
     </div>\
     ');
     $(".vimeo-snaps").mouseenter( function() {
