@@ -96,7 +96,7 @@ $(document).ready(function(){
 
   // tooltips
   $(function () {
-    $('#vimeo, #vimeo1').tooltip();
+    $('#vimeo, #heroku, #heroku1').tooltip();
   });
   $(function () {
     $('[data-toggle="tooltip"]').tooltip();

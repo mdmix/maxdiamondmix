@@ -638,13 +638,13 @@ body {
 }
 
 #about p {
-  font-family: 'Cousine', Arial Black, Impact, sans-serif;
+  font-family: Gill Sans, Arial Black, Impact, sans-serif;
   font-size: 1em;
   font-weight: bold;
 }
 
 #skills-list {
-  font-family: 'Cousine', Arial Black, Impact, sans-serif;
+  font-family: Gill Sans, Arial Black, Impact, sans-serif;
   font-size: 1em;
   font-weight: bold;
 }
@@ -785,13 +785,22 @@ j {
 .tooltip.top .tooltip-arrow {
   /* background-color: #F77E14; */
   border-top: 5px solid #F77E14;
+  /* border-right: 5px solid #F77E14; */
+}
+
+.tooltip.left .tooltip-arrow {
+  border-left: 5px solid #F77E14;
+}
+
+.tooltip.right .tooltip-arrow {
+  border-right: 5px solid #F77E14;
 }
 
 .tooltip-inner {
   background-color: #F77E14;
 }
 
-#vimeo, #vimeo1 {
+#vimeo, #heroku, #heroku1 {
   color: #F77E14;
 }
 
@@ -842,10 +851,11 @@ j {
 }
 
 .panel-body {
-  font-family: 'Cousine', Arial Black, Impact, sans-serif;
+  font-family: Gill Sans, Arial Black, Impact, sans-serif;
   font-size: 1.2em;
   text-align: justify;
   text-justify: inter-word;
+  font-weight: bold;
 }
 
 
@@ -941,12 +951,12 @@ form {
   /* width: 0%; */
 }
 
-form .btn-success {
+form .btn-success, #send-button {
   background-color: #F77E14;
   border-color: #F77E14;
 }
 
-form .btn-success:hover {
+form .btn-success:hover, #send-button:hover {
   background-color: #FF0;
   border-color: #FF0;
 }
@@ -1065,7 +1075,7 @@ footer {
 }
 
 .screen p, input, textarea {
-  font-family: 'Cousine', Arial Black, Impact, sans-serif;
+  font-family: Gill Sans, Arial Black, Impact, sans-serif;
   font-size: 1.2em;
   font-weight: bold;
 }
@@ -1082,7 +1092,7 @@ footer {
   font-weight: bold;
 }
 
-form .btn {
+form .btn, #send-button {
   font-family: 'Syncopate', Arial Black, Futura, sans-serif;
   font-size: 1.6em;
 }
@@ -1304,7 +1314,7 @@ footer {
   }
   .skills {
     position: relative;
-    top: 50px;
+    top: 59px;
     left: 45px;
     width: 91%;
     padding-bottom: 167px;

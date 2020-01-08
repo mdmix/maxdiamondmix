@@ -247,7 +247,7 @@
 }
 
 .row p {
-  font-family: 'Cousine', Arial Black, Impact, sans-serif;
+  font-family: Gill Sans, Arial Black, Impact, sans-serif;
   font-size: 1em;
   font-weight: bold;
   text-align: justify;
@@ -400,13 +400,13 @@
 }
 
 #about p {
-  font-family: 'Cousine', Arial Black, Impact, sans-serif;
+  font-family: Gill Sans, Arial Black, Impact, sans-serif;
   font-size: 1em;
   font-weight: bold;
 }
 
 #skills-list {
-  font-family: 'Cousine', Arial Black, Impact, sans-serif;
+  font-family: Gill Sans, Arial Black, Impact, sans-serif;
   font-size: 1em;
   font-weight: bold;
 }
@@ -594,7 +594,7 @@
 }
 
 .panel-body {
-  font-family: 'Cousine', Arial Black, Impact, sans-serif;
+  font-family: Gill Sans, Arial Black, Impact, sans-serif;
   font-size: 1.2em;
   text-align: justify;
   text-justify: inter-word;
@@ -774,7 +774,7 @@ footer {
 }
 
 .screen p, input, textarea {
-  font-family: 'Cousine', Arial Black, Impact, sans-serif;
+  font-family: Gill Sans, Arial Black, Impact, sans-serif;
   font-size: 1.2em;
   font-weight: bold;
 }
