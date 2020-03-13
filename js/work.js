@@ -27,43 +27,47 @@ var work = [
     pic: "img/plane-framed.jpg",
     url: "#index",
     caseStudy: "coming-soon.html"
+  },
+  {
+    type: "REACT-BASED SITE",
+    title: "(coming soon)",
+    pic: "img/plane-framed.jpg",
+    url: "",
+    caseStudy: "coming-soon.html"
+  },
+  {
+    type: "AUTOMATED ANALYSIS",
+    title: "(coming soon)",
+    pic: "img/plane-framed.jpg",
+    url: "",
+    caseStudy: "coming-soon.html"
+  },
+  {
+    type: "BERLIN GROOVE",
+    title: "(coming soon)",
+    pic: "img/plane-framed.jpg",
+    url: "",
+    caseStudy: "coming-soon.html"
+  },
+  {
+    type: "NEWS ANALYSIS",
+    title: "(coming soon)",
+    pic: "img/plane-framed.jpg",
+    url: "",
+    caseStudy: "coming-soon.html"
   }
-  // {
-  //   type: "Clip",
-  //   title: "Fifth Project",
-  //   pic: "img/face-music-online.png",
-  //   url: "http://vimeo.com/maxdiamondmix"
-  // },
-  // {
-  //   type: "Clip",
-  //   title: "Sixth Project",
-  //   pic: "img/plane-crowd.png",
-  //   url: "http://vimeo.com/maxdiamondmix"
-  // },
-  // {
-  //   type: "Clip",
-  //   title: "Seventh Project",
-  //   pic: "img/face-music-online.png",
-  //   url: "http://vimeo.com/maxdiamondmix"
-  // },
-  // {
-  //   type: "Clip",
-  //   title: "Eighth Project",
-  //   pic: "img/plane-crowd.png",
-  //   url: "http://vimeo.com/maxdiamondmix"
-  // }
 ];
 
 var workV = [
   {
     type: "EDIT-TO-MUSIC",
-    title: "Showreel Mix",
+    title: "History Showreel",
     pic: "img/showreel.jpg",
     url: "https://player.vimeo.com/video/343226849",
     modal: "img/updates-soon-framed.jpg"
   },
   {
-    type: "HISTORY MONTAGE",
+    type: "VIVIFYING INTERVIEWS",
     title: "Neighbors' Dignity",
     pic: "img/neighbors.jpg",
     url: "https://player.vimeo.com/video/148670221",
@@ -77,31 +81,38 @@ var workV = [
     modal: "img/updates-soon-framed.jpg"
   },
   {
-    type: "PROMOS' SNAPSHOT",
+    type: "PROMOS' SNAP",
+    title: "(coming soon)",
+    pic: "img/plane-framed.jpg",
+    url: "",
+    modal: "img/updates-soon-framed.jpg"
+  },
+  {
+    type: "RECENT CONCERTS' SNAP",
+    title: "(coming soon)",
+    pic: "img/plane-framed.jpg",
+    url: "",
+    modal: "img/updates-soon-framed.jpg"
+  },
+  {
+    type: "TENSE STREETS",
+    title: "(coming soon)",
+    pic: "img/plane-framed.jpg",
+    url: "",
+    modal: "img/updates-soon-framed.jpg"
+  },
+  {
+    type: "JAZZ OUTDOORS",
+    title: "(coming soon)",
+    pic: "img/plane-framed.jpg",
+    url: "",
+    modal: "img/updates-soon-framed.jpg"
+  },
+  {
+    type: "BERLIN GROOVE",
     title: "(coming soon)",
     pic: "img/plane-framed.jpg",
     url: "",
     modal: "img/updates-soon-framed.jpg"
   }
-  // {
-  //   type: "Clip",
-  //   title: "Fifth Project",
-  //   pic: "img/plane-crowd.png",
-  //   url: "http://vimeo.com/maxdiamondmix"
-  // },
-  // {
-  //   title: "Sixth Project",
-  //   pic: "img/face-music-online.png",
-  //   url: "http://vimeo.com/maxdiamondmix"
-  // },
-  // {
-  //   title: "Seventh Project",
-  //   pic: "img/plane-crowd.png",
-  //   url: "http://vimeo.com/maxdiamondmix"
-  // },
-  // {
-  //   title: "Eighth Project",
-  //   pic: "img/face-music-online.png",
-  //   url: "http://vimeo.com/maxdiamondmix"
-  // }
 ];

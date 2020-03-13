@@ -253,7 +253,7 @@ $(document).ready(function(){
     $(".vimeo-snaps").click(function(e) {
         e.preventDefault();
 
-        $("#all-videos").attr("src", $(this).attr("href"));
+        $("#all-videos-sites").attr("src", $(this).attr("href"));
     })
 });
 
